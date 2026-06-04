@@ -1,0 +1,60 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><style>
+  html,body{margin:0;padding:0}
+  #stage{width:1200px;height:630px;background:#ffffff;position:relative;overflow:hidden;
+    font-family:'Segoe UI','Microsoft YaHei',Arial,sans-serif}
+</style></head>
+<body>
+<div id="stage">
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <!-- 标题 -->
+  <text x="600" y="68" text-anchor="middle" font-size="44" font-weight="800" fill="#16213e">🚀 social-auto-publisher</text>
+  <text x="600" y="104" text-anchor="middle" font-size="20" fill="#5a6">一份内容,自动发全网 — 还教你破反爬 · One content, auto-posted everywhere</text>
+
+  <!-- 左: 内容 -->
+  <rect x="70" y="270" width="170" height="100" rx="16" fill="#4361ee"/>
+  <text x="155" y="312" text-anchor="middle" font-size="34">📝</text>
+  <text x="155" y="345" text-anchor="middle" font-size="19" font-weight="700" fill="#fff">一份内容</text>
+
+  <!-- 中: 双引擎 -->
+  <rect x="400" y="225" width="240" height="62" rx="12" fill="#fff" stroke="#4361ee" stroke-width="2.5"/>
+  <text x="520" y="252" text-anchor="middle" font-size="17" font-weight="700" fill="#16213e">🔀 Playwright 脚本</text>
+  <text x="520" y="274" text-anchor="middle" font-size="13" fill="#888">独立 profile · 批量/定时</text>
+
+  <rect x="400" y="343" width="240" height="62" rx="12" fill="#fff" stroke="#7209b7" stroke-width="2.5"/>
+  <text x="520" y="370" text-anchor="middle" font-size="17" font-weight="700" fill="#16213e">🌐 Chrome MCP</text>
+  <text x="520" y="392" text-anchor="middle" font-size="13" fill="#888">真实浏览器 · 真指纹防封</text>
+
+  <!-- 内容→引擎 箭头 -->
+  <path d="M240 312 C320 290 340 256 398 256" fill="none" stroke="#bbb" stroke-width="2.5"/>
+  <path d="M240 328 C320 350 340 374 398 374" fill="none" stroke="#bbb" stroke-width="2.5"/>
+
+  <!-- 右: 5 平台 -->
+  <g font-size="18" font-weight="700">
+    <rect x="820" y="150" width="300" height="56" rx="12" fill="#fff" stroke="#000" stroke-width="2"/>
+    <circle cx="852" cy="178" r="11" fill="#000"/><text x="880" y="184" fill="#16213e">抖音 Douyin ✅</text>
+    <rect x="820" y="220" width="300" height="56" rx="12" fill="#fff" stroke="#ff2442" stroke-width="2"/>
+    <circle cx="852" cy="248" r="11" fill="#ff2442"/><text x="880" y="254" fill="#16213e">小红书 RED</text>
+    <rect x="820" y="290" width="300" height="56" rx="12" fill="#fff" stroke="#25f4ee" stroke-width="2"/>
+    <circle cx="852" cy="318" r="11" fill="#000"/><text x="880" y="324" fill="#16213e">TikTok</text>
+    <rect x="820" y="360" width="300" height="56" rx="12" fill="#fff" stroke="#ff4500" stroke-width="2"/>
+    <circle cx="852" cy="388" r="11" fill="#ff4500"/><text x="880" y="394" fill="#16213e">Reddit ✅</text>
+    <rect x="820" y="430" width="300" height="56" rx="12" fill="#fff" stroke="#000" stroke-width="2"/>
+    <circle cx="852" cy="458" r="11" fill="#000"/><text x="880" y="464" fill="#16213e">X (Twitter)</text>
+  </g>
+
+  <!-- 引擎→平台 箭头 (fan-out) -->
+  <g fill="none" stroke="#ccc" stroke-width="2">
+    <path d="M642 250 C720 210 760 180 818 178"/>
+    <path d="M642 252 C720 245 760 248 818 248"/>
+    <path d="M642 374 C720 350 760 320 818 318"/>
+    <path d="M642 376 C720 388 760 388 818 388"/>
+    <path d="M642 378 C720 430 760 458 818 458"/>
+  </g>
+
+  <!-- 底部标签 -->
+  <text x="600" y="575" text-anchor="middle" font-size="18" fill="#16213e" font-weight="600">双路线引擎 · 破反爬方法论 + 16 踩坑全公开 · 中英 5 平台</text>
+  <text x="600" y="602" text-anchor="middle" font-size="14" fill="#999">Playwright + Chrome MCP · anti-bot playbook · MIT</text>
+</svg>
+</div>
+</body></html>

@@ -5,9 +5,9 @@ package-lock.json
 .*-profile/
 .chrome-tmp/
 
-# 测试产物（截图 / 临时 HTML）
-*.png
-*.html
+# 测试产物（只排根目录截图 / 临时 HTML；assets/ 下的 demo 图保留）
+/*.png
+/*.html
 
 # flag 信号文件
 .*-go
