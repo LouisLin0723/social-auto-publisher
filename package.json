@@ -1,0 +1,9 @@
+{
+  "name": "social-poster-douyin",
+  "private": true,
+  "type": "module",
+  "description": "多平台社媒自动发布引擎 (Playwright + Chrome MCP, 驱动系统 Chrome)",
+  "dependencies": {
+    "playwright-core": "^1.60.0"
+  }
+}
